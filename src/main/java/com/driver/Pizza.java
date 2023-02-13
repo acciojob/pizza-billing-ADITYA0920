@@ -30,7 +30,7 @@ public class Pizza {
         this.extraToppingAdded=false;
         this.extraTakeaway=false;
         this.hasbillcreated=false;
-        this.bill="Base Price Of The Pizza:"+this.price+"\n";
+        this.bill="Base Price Of The Pizza: "+this.price+"\n";
 
     }
 
@@ -83,14 +83,14 @@ public class Pizza {
             }
             if(extraToppingAdded)
             {
-                this.bill+="Extra Toppings Added:"+this.toppings+"\n";
+                this.bill+="Extra Toppings Added: "+this.toppings+"\n";
             }
             if(extraTakeaway)
             {
                 this.bill+="Paperbag Added: 20"+"\n";
             }
             this.hasbillcreated=true;
-            return this.bill+="Total Price:"+this.price;
+            return this.bill+="Total Price: "+this.price;
 
         }
 
